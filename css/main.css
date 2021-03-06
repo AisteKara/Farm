@@ -64,8 +64,12 @@ span > img {
     float: left;
     font-size: 30px;
     }
-.camping {
+
+.bottom {
     display: block;
+}
+.camping {
+    display: inline-block;
     width: 500px;
     margin: 30px;
     background-color: white;
@@ -80,6 +84,31 @@ span > img {
     color: grey;
 }
 .statistics {
+    display: inline-block;
     width: 200px;
+    height: 400px;
     background-color: red;
+}
+.husbandry {
+    display: inline-block;
+    width: 350px;
+    background-color: #6236FF;
+    border-radius: 75px;
+}
+.husbandry > h3 {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+}
+.husbandry > p {
+    margin-left: 50px;
+    width: 130px;
+    color: white;
+    
+}
+.husbandry > img {
+    margin-left: 120px;
+    margin-top: 60px;
 }
